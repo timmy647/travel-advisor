@@ -43,15 +43,15 @@ To run the Travel Advisor Web App locally or deploy it, follow these steps:
     ```
 
 3. **Set up API keys:**
-
-  Obtain API keys for RapidAPI and Google Maps.
-  Create a .env file in the project root directory and add your API keys as follows:
-
+    
+    Obtain API keys for RapidAPI and Google Maps.
+    Create a .env file in the project root directory and add your API keys as follows:
+    
     ```
     REACT_APP_RAPIDAPI_KEY=your-rapidapi-key
     REACT_APP_GOOGLE_MAPS_API_KEY=your-google-maps-api-key
     ```
-
+    
 4. **Start the development server:**
 
     ```
