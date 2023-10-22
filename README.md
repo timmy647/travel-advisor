@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Travel Advisor Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Travel Advisor Web App]("/screenshots/travel-advisor")
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The **Travel Advisor Web App** is a user-friendly and interactive web application that allows travelers to explore and plan their trips with ease. With this app, users can find information on restaurants, hotels, and attractions in various locations, making it a valuable tool for anyone looking to have a memorable travel experience.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Restaurant Exploration**: Discover nearby restaurants, view their ratings, cuisines, and user reviews. Make an informed decision about where to dine during your trip.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Hotel Search**: Find and compare hotels in your desired location, complete with ratings, pricing, and user reviews. Book your stay with confidence.
 
-### `npm test`
+- **Attractions**: Explore popular tourist attractions and get essential information such as opening hours, ticket prices, and user reviews.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Interactive Maps**: The app integrates Google Maps to provide you with accurate and user-friendly navigation to your chosen destinations.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: The app is built with React, a popular JavaScript library for creating dynamic user interfaces.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Material UI**: Material UI provides a sleek and responsive design, enhancing the user experience and visual appeal of the app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **RapidAPI**: We use RapidAPI to access data and information about restaurants, hotels, and attractions from various sources, ensuring we provide you with the most up-to-date and reliable data.
 
-### `npm run eject`
+- **Google Maps API**: Google Maps API enables seamless integration of maps, allowing users to locate and navigate to their chosen destinations effortlessly.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run the Travel Advisor Web App locally or deploy it, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the repository:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```
+    git clone https://github.com/your-username/travel-advisor-web-app.git
+    ```
 
-## Learn More
+2. **Install the required dependencies:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```
+    npm install
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Set up API keys:**
 
-### Code Splitting
+  Obtain API keys for RapidAPI and Google Maps.
+  Create a .env file in the project root directory and add your API keys as follows:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ```
+    REACT_APP_RAPIDAPI_KEY=your-rapidapi-key
+    REACT_APP_GOOGLE_MAPS_API_KEY=your-google-maps-api-key
+    ```
 
-### Analyzing the Bundle Size
+4. **Start the development server:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    ```
+    npm start
+    ```
 
-### Making a Progressive Web App
+5. **Access the app in your web browser at http://localhost:3000.**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+We would like to extend our gratitude to Adrian Hajdin, the JavaScript Mastery, whose tutorial and guidance have helped shape this remarkable project. If you're   interested in exploring more of Adrian's work, be sure to check out his GitHub repository at [Adrian Hajdin - JS Mastery](https://github.com/adrianhajdin).
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
