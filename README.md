@@ -1,6 +1,6 @@
 # Travel Advisor Web App
 
-![Travel Advisor Web App](/screenshots/travel-advisor.png?raw=true "Screenshot")
+![Travel Advisor Web App](/screenshots/travel-advisor.PNG?raw=true "Screenshot")
 
 ## Overview
 
